@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en" class="h-full bg-white">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./tailwind.css" />
+    <title>Inicio</title>
+  </head>
+  <body class="h-full">
+    <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
+      <div class="">
+        <img class="h-50 mx-auto w-auto" src="login.jpg" alt="Your Company" />
+        <h2
+          class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900"
+        >
+          Bienvenido
+        </h2>
+        <h2
+          class="mt-8 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900"
+        >
+          Devy Salomon
+        </h2>
+      </div>
+
+      <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+        <div>
+          <p
+            class="mt-10 text-center text-sm font-medium leading-6 text-gray-900"
+          >
+            Tu numero de ID es:
+          </p>
+          <h2
+            class="text-center text-2xl font-bold leading-9 tracking-tight text-gray-900"
+          >
+            98765443
+          </h2>
+          <p
+            class="mt-10 text-center text-sm font-medium leading-6 text-gray-900"
+          >
+            Escribelo en el espacio llamado "Numero de ID". Recuerdalo, ya que
+            te lo pediran en cada modulo.
+          </p>
+        </div>
+        <form class="space-y-6" action="#" method="POST">
+          <div>
+            <div class="mt-2">
+              <input name="hidden" type="hidden" required value="98765443" />
+            </div>
+          </div>
+
+          <div>
+            <button
+              type="submit"
+              class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >
+              Ya lo escribi en el sobre
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
